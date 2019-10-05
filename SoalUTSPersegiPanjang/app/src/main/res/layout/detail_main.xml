@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10pt"
+            android:paddingRight="10pt">
+
+            <ImageView
+                    android:id="@+id/img_persegi_panjang"
+                    android:layout_width="100pt"
+                    android:layout_height="100pt"
+                    app:srcCompat="@mipmap/ic_launcher" android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10pt"
+                android:text="PERSEGI PANJANG"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10pt"
+                android:text=" (dalam bahasa Inggris: rectangle) adalah bangun datar dua dimensi yang dibentuk oleh dua pasang rusuk yang masing-masing sama panjang dan sejajar dengan pasangannya, dan memiliki empat buah sudut yang kesemuanya adalah sudut siku-siku."
+                android:textSize="9pt" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10pt"
+                android:text="Rusuk terpanjang disebut sebagai panjang dan rusuk terpendek disebut sebagai lebar"
+                android:textSize="9pt" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10pt"
+                android:text="RUMUS PERSEGI PANJANG"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10pt"
+                android:text="LUAS :"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+
+            <ImageView
+                    android:id="@+id/img_rumus_luas"
+                    android:layout_width="100pt"
+                    android:layout_height="100pt"
+                    app:srcCompat="@mipmap/ic_launcher" android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10pt"
+                android:text="KELILING :"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+
+            <ImageView
+                    android:id="@+id/img_rumus_keliling"
+                    android:layout_width="100pt"
+                    android:layout_height="100pt"
+                    app:srcCompat="@mipmap/ic_launcher" android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10pt"
+                android:text="DIAGONAL :"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+
+            <ImageView
+                    android:id="@+id/img_rumus_diagonal"
+                    android:layout_width="100pt"
+                    android:layout_height="100pt"
+                    app:srcCompat="@mipmap/ic_launcher" android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
