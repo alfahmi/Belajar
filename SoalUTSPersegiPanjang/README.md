@@ -3,7 +3,7 @@ Adalah aplikasi berbasis program kotlin yang mengacu pada aplikasi [SoalUTS](htt
 ### Codingan
 Berikut codingan Kotlin yang di gunakan di aplikasi SoalUTSPersegiPanjang.
 #### MainActivity.kt
-```
+``` r
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 #### HitungActivity.kt
-```
+``` r
 class HitungActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -93,7 +93,7 @@ class HitungActivity : AppCompatActivity() {
 ```
 
 #### DetailActivity.kt
-```
+``` r
 class ProfileActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -109,7 +109,7 @@ class ProfileActivity : AppCompatActivity() {
 }
 ```
 #### ProfileActivity.kt
-```
+``` r
 class ProfileActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
